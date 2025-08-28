@@ -1,2 +1,2 @@
 # andmetarkus
-Kursuse Vali Andmetarkus! materjalid
+ Power BI report - Sales Report.pbix 
