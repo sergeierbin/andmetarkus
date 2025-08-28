@@ -1,0 +1,22 @@
+Count of Used workflow automations?;Column Labels;;
+Row Labels;Yes;No;Grand Total
+Yes;1139;468;1607
+No;713;1680;2393
+Grand Total;1852;2148;4000
+;;;
+;;;
+Count of Used workflow automations?;;;
+Row Labels;Yes;No;Grand Total
+Yes;1139;468;1607
+No;713;1680;2393
+;1852;2148;4000
+;;;
+;Yes;No;
+Yes;744,041;862,959;
+No;1107,959;1285,041;
+;;;
+;;;
+Hii-ruut-statistiku statistiline olulisus (p-value);0,000;;
+;;;
+100 juhul 100st saaksime samu tulemusi;;;
+Kuna P-value on 0, siis funktsioon mõjutas maksvaks kliendiks saamist.;;;
