@@ -1,0 +1,26 @@
+import pandas as pd
+import plotly.express as px
+
+data = [
+    {"iso_alpha": "EST", "country": "Eesti", "metric": 72},
+    {"iso_alpha": "LVA", "country": "Läti", "metric": 55},
+    {"iso_alpha": "LTU", "country": "Leedu", "metric": 63},
+    {"iso_alpha": "FIN", "country": "Soome", "metric": 88},
+]
+
+df = pd.DataFrame(data)
+
+fig = px.choropleth(
+    df,
+    locations="iso_alpha",
+    color="metric",
+    hover_name="country",
+    color_continuous_scale="Viridis",
+    projection="natural earth",
+    title="Minu geomap"
+)
+
+# Salvesta HTML-fail
+fig.write_html("minu_geomap.html", include_plotlyjs="cdn")
+
+print("Kaart salvestatud faili 'minu_geomap.html'. Ava see brauseris.")
